@@ -36,5 +36,7 @@ optional arguments:
 
 ## Powered by:
 [Python](https://www.python.org/)
+
 [Watchdog](https://github.com/gorakhargosh/watchdog)
+
 [PyInstaller] (https://www.pyinstaller.org/)
