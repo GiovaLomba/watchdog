@@ -32,11 +32,11 @@ optional arguments:
                         the given size; defaults to 10.
 ```
 ## Download
-* [Windows 10 X64] (https://github.com/GiovaLomba/wd/raw/master/wd.exe)
+* [Windows 10 X64](https://github.com/GiovaLomba/wd/raw/master/wd.exe)
 
 ## Powered by:
 [Python](https://www.python.org/)
 
 [Watchdog](https://github.com/gorakhargosh/watchdog)
 
-[PyInstaller] (https://www.pyinstaller.org/)
+[PyInstaller](https://www.pyinstaller.org/)
