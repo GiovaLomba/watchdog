@@ -1,5 +1,5 @@
 # wd
-A filesystem watchdog
+A filesystem watchdog.
 
 ```bash
 (c) 2019 Giovanni Lombardo mailto://g.lombardo@protonmail.com
@@ -31,3 +31,10 @@ optional arguments:
                         When given defines the maximum number of log files of
                         the given size; defaults to 10.
 ```
+## Download
+* [Windows 10 X64] (https://github.com/GiovaLomba/wd/raw/master/wd.exe)
+
+## Powered by:
+[Python](https://www.python.org/)
+[Watchdog](https://github.com/gorakhargosh/watchdog)
+[PyInstaller] (https://www.pyinstaller.org/)
