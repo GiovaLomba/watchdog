@@ -1,7 +1,7 @@
 # wd
 A filesystem watchdog.
 
-```bash
+```
 (c) 2019 Giovanni Lombardo mailto://g.lombardo@protonmail.com
 wd.exe version 1.0.0
 
@@ -35,8 +35,12 @@ optional arguments:
 * [Windows 10 X64](https://github.com/GiovaLomba/wd/raw/master/wd.exe)
 
 ## Powered by:
+![Python](https://www.python.org/static/img/python-logo.png "Python")
+
+<!---
 [Python](https://www.python.org/)
 
 [Watchdog](https://github.com/gorakhargosh/watchdog)
 
 [PyInstaller](https://www.pyinstaller.org/)
+-->
