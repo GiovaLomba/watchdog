@@ -1,5 +1,12 @@
-# wd
-A filesystem watchdog.
+# WD
+A filesystem WatchDog. It watches events on files and directories on a given portion of a filesystem. Events can happen on files or directories; everything which isn't a directory is considered as a file (alias and/or link too). Recordered events are classified as follows:
+
+- Created: a new item has been created in the watched portion of the filesystem.
+- Moved: an item has been moved from or to a watched portion of the filesystem.
+- Modified: an item in the watched portion of the filesystem has been edited.
+- Deleted: an item in the watched portion of the filesystem has been removed.
+
+## How does it works?
 
 ```
 (c) 2019 Giovanni Lombardo mailto://g.lombardo@protonmail.com
@@ -31,10 +38,20 @@ optional arguments:
                         When given defines the maximum number of log files of
                         the given size; defaults to 10.
 ```
+## Note
+When the specified log file is actually stored into the watched portion of the filesystem every change to it will be reported as an event in the log file, thus generating a huge number of unuseful events. In such cases, to avoid this circumstance `wd` should be executed with the `-i` option with at least one (regex) pattern matching the name of the log file. Take a look at the following example:
+
+```bash
+wd.exe C:\ C:\Users\Jhon\Logs\wd.log -i "wd\.log$"
+                                     -------------
+```
+
+The dot (`.`) in the regexp language has special meaning, so it must be escaped in order for it to be matched literally. The dollar sign (`-$`) at the end of the regex means that the matching string must end there.
+
 ## Download
 * [Windows 10 X64](https://github.com/GiovaLomba/wd/raw/master/wd.exe)
 
-## Powered by:
+## Powered by
 ![Python](https://www.python.org/static/img/python-logo.png "Python")
 
 <!---
