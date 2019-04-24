@@ -1,10 +1,10 @@
 # WD
 A filesystem WatchDog. It watches events on files and directories on a given portion of a filesystem. Events can happen on files or directories; everything which isn't a directory is considered as a file (alias and/or link too). Recordered events are classified as follows:
 
-- Created: a new item has been created in the watched portion of the filesystem.
-- Moved: an item has been moved from or to a watched portion of the filesystem.
-- Modified: an item in the watched portion of the filesystem has been edited.
-- Deleted: an item in the watched portion of the filesystem has been removed.
+- __Created__: a new item has been created in the watched portion of the filesystem.
+- __Moved__: an item has been moved from or to a watched portion of the filesystem.
+- __Modified__: an item in the watched portion of the filesystem has been edited.
+- __Deleted__: an item in the watched portion of the filesystem has been removed.
 
 ## How does it works?
 
