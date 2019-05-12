@@ -53,6 +53,8 @@ The dot (`.`) in the regexp language has special meaning, so it must be escaped 
 ## Download
 * [Windows 10 X64](https://github.com/GiovaLomba/wd/raw/master/wd.exe)
 
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/GiovaLomba/wd/issues)
+
 ## Powered by
 ![Python](https://www.python.org/static/img/python-logo.png "Python")
 
