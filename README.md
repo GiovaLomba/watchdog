@@ -1,6 +1,6 @@
-[![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg)](http://hits.dwyl.io/GiovaLomba/wd)
 
-# WD
+
+# WD [![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg)](http://hits.dwyl.io/GiovaLomba/wd)
 A filesystem WatchDog. It watches events on files and directories on a given portion of a filesystem. Events can happen on files or directories; everything which isn't a directory is considered as a file (alias and/or link too). Recordered events are classified as follows:
 
 - __Created__: a new item has been created in the watched portion of the filesystem.
