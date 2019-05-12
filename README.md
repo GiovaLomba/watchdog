@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/GiovaLomba/wd.svg)](http://hits.dwyl.io/GiovaLomba/wd)
+
 # WD
 A filesystem WatchDog. It watches events on files and directories on a given portion of a filesystem. Events can happen on files or directories; everything which isn't a directory is considered as a file (alias and/or link too). Recordered events are classified as follows:
 
